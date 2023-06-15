@@ -109,6 +109,8 @@ export default class GutenbergEditorComponent extends Attribute {
     this.setState({ loadingEditor: false })
   }
 
+
+  
   getControlsHTML () {
     const localizations = dataManager.get('localizations')
     const gutenbergEditorUpdateButton = localizations.gutenbergEditorUpdateButton ? localizations.gutenbergEditorUpdateButton : 'Update'
